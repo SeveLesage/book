@@ -1,0 +1,90 @@
+.imgHeader {
+    background-color: #eaaaa0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50vh;
+    box-sizing: border-box;
+    letter-spacing: 6px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+span {
+    display: inline-block;
+}
+
+.nav li a {
+    color: #eaaaa0;
+}
+
+.logo1 {
+    color: #eaaaa0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#cv {
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#book {
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bouton {
+    padding: 10px 50px;
+    background-color: #eaaaa0;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bouton:hover {
+    background-color: grey;
+}
+
+hr {
+    color: #eaaaa0;
+}
+
+#book h3 {
+    text-align: center;
+    color: #eaaaa0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#cv h3 {
+    text-align: center;
+    color: #eaaaa0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#book p {
+    font-size: 1.5em;
+}
+
+.logo {
+    color: #fb911f;
+    font-weight: bold;
+    font-size: 4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pied {
+    color: #eaaaa0;
+    font-weight: bold;
+}
