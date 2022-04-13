@@ -1,0 +1,67 @@
+.baseline {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 150px;
+    font-size: 3rem;
+    color: rgb(163, 156, 156);
+    letter-spacing: 0.1rem;
+}
+
+.hero {
+    min-height: 100vh;
+    min-height: 30rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* &__content {
+		position: relative;
+		align-self: center;
+		padding: 3rem 0;
+	} */
+}
+
+.snow {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.snow .svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#snow-top-layer {
+    will-change: transform;
+    transform: translateY(-768px);
+    animation: fall 22.5s infinite linear;
+}
+
+#snow-bottom-layer {
+    will-change: transform;
+    transform: translateY(-768px);
+    animation: fall 45s infinite linear;
+}
+
+@keyframes fall {
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/*responsive*/
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .baseline {
+        margin-top: 130px;
+        font-size: 2rem;
+    }
+}
